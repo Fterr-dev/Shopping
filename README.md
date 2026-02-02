@@ -12,7 +12,7 @@ HTML5
 https://www.figma.com/design/xdUetMMZuy5kHoit5NfFam/Online-Shopping?t=LJeb7Qj6rb0vcu0G-1
 
 ## Respository Link
-https://github.com/Fterr-dev/Online_Shopping.git
+https://github.com/Fterr-dev/Shopping.git
 
 ## Project Pages
 
