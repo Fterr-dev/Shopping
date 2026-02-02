@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    padding: 15px 5%;
+    background: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav strong {
+    font-size: 1.5rem;
+    color: #1a2a3a;
+}
+nav .link a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    padding: 50px 5% 20px;
+    font-size: 0.85rem;
+}
+
+address {
+    font-style: normal;
+    line-height: 2;
+    margin-bottom: 30px;
+    color: white;
+}
+
+aside {
+    background-color: #0f172a;
+    padding: 0 5%;
+}
+
+details {
+    color: #fff;
+    cursor: pointer;
+    border-top: 1px solid #334155;
+    padding: 20px 0;
+}
+
+mark {
+    background: none;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.cta-button {
+    background: white;
+    color: #2ecc71;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}

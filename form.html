@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Shopping | Order Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <strong>OnlineShopping</strong> 
+        <div class="link">
+
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Order</a> 
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h1>Customer Order Form</h1>
+    <p>
+        Please complete the form below to place your order.
+        All information provided will be used only for order processing.
+    </p>
+</section>
+
+<form>
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name:</label><br>
+<input type="text" placeholder="Enter your full name"><br><br>
+
+<label>Email Address:</label><br>
+<input type="email" placeholder="example@email.com"><br><br>
+
+<label>Password:</label><br>
+<input type="password"><br><br>
+
+<label>Phone Number:</label><br>
+<input type="tel"><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Order Details</legend>
+
+<label>Product Name:</label><br>
+<input type="text"><br><br>
+
+<label>Quantity:</label><br>
+<input type="number"><br><br>
+
+<label>Delivery Address:</label><br>
+<textarea rows="4"></textarea><br><br>
+
+<label>Payment Method:</label><br>
+<select>
+    <optgroup label="Online Payments">
+        <option>Credit Card</option>
+        <option>Mobile Money</option>
+        <option>PayPal</option>
+    </optgroup>
+</select><br><br>
+
+<label>Country:</label><br>
+<input list="countries">
+<datalist id="countries">
+    <option value="Rwanda">
+    <option value="Kenya">
+    <option value="Uganda">
+</datalist><br><br>
+</fieldset>
+
+<button type="submit">Submit Order</button><br>
+
+<output>Your order will be processed</output>
+
+</form>
+</main>
+<aside>
+    <details>
+        <summary>Website Policy</summary>
+        <p>
+            OnlineShopping follows academic standards and ethical business practices.
+        </p>
+    </details>
+</aside>
+<hr>
+<footer>
+    <address>
+        OnlineShopping Platform <br>
+        Kigali, Rwanda <br>
+        Email: info@onlineshopping.com
+    </address>
+
+    <p>
+        <time datetime="2026-01-26">January 26, 2026</time> |
+        IGIRUBUNTU • Fraternité • Order
+    </p>
+</footer>
+
+</body>
+</html>
